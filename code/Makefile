@@ -1,4 +1,4 @@
 ## MakeFile of loader
 
-loader: 
-	go build loader.go
+build:	loader.go
+		go build loader.go
