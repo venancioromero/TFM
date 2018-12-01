@@ -1,0 +1,2 @@
+SQLURL   = "root:1234@/panel555_RS"
+Neo4JURL = "bolt://neo4j:1234@localhost:7687"
