@@ -2,7 +2,7 @@ package config
 
 import "github.com/BurntSushi/toml"
 
-const configFilename = "/home/venoty/Desktop/TFM/recommender/config/app.toml"
+const configFilename = "/home/venoty/Desktop/TFM/loader/config/app.toml"
 
 // Config struct
 type Config struct {

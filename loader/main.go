@@ -12,9 +12,11 @@ import (
 	bolt "github.com/johnnadratowski/golang-neo4j-bolt-driver"
 )
 
-var conf config.Config
-var sqlConn *sql.DB
-var neoConn bolt.Conn
+var (
+	conf    config.Config
+	sqlConn *sql.DB
+	neoConn bolt.Conn
+)
 
 func checkErr(err error) {
 	if err != nil {
